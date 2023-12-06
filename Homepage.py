@@ -21,8 +21,8 @@ st.title("Christine's Blog")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20fcfjwiyb.json")
-img_contact_form = Image.open("https://scontent.fcgy2-1.fna.fbcdn.net/v/t1.15752-9/364524585_269669775815085_2156670383389392228_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFHBriKpxDu1YCNxqFsuePkQIpbwMYpwcNAilvAxinBw4wQBFKyRhbo7lV6wJHPqUWqi1UEKt2u7Wa2SttzH9DV&_nc_ohc=be-IwEfcEykAX8iTx-W&_nc_ht=scontent.fcgy2-1.fna&oh=03_AdSyS99ta7j9jMIlw5NbVRHBHDZtCeYmQPnDfvNd04TyMg&oe=65973772")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20fcfjwiyb.json")
+img_contact_form = Image.open("images/christine.jpg")
 # --- PROJECTS ---
 with st.container():
     image_column, text_column = st.columns ((1, 2))
