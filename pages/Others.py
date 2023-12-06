@@ -1,6 +1,6 @@
 from PIL import Image
 import requests
-
+from streamlit_lottie import st_lottie 
 import streamlit as st
 
 def load_lottieurl(url):
@@ -13,7 +13,7 @@ st.title("More information about myself.")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/graduation.jpg")
 
 # --- PROJECTS ---
@@ -39,7 +39,7 @@ st.title("Chess")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/chess.jpg")
 
 # --- PROJECTS ---
@@ -56,7 +56,7 @@ st.title("Photography")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/camera.jpg")
 
 # --- PROJECTS ---
@@ -66,7 +66,7 @@ with image_column:
     st.image(img_contact_form)
 
    # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/camera (2).jpg")
 
 # --- PROJECTS ---
@@ -83,7 +83,7 @@ st.title("Coffee")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/coffee.gif")
 
 # --- PROJECTS ---
@@ -100,7 +100,7 @@ st.title("Cats")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/cat.jpg")
 
 # --- PROJECTS ---
@@ -110,7 +110,7 @@ with image_column:
     st.image(img_contact_form)
 
  # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/cat (2).jpg")
 
 # --- PROJECTS ---
@@ -125,7 +125,7 @@ st.title("Editing")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/editing.jpg")
 
 # --- PROJECTS ---
@@ -141,7 +141,7 @@ st.title("Dancing")
 import streamlit as st
 
     # --- LOAD ASSETS ---
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
+#lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20 fcfjwiyb.json")
 img_contact_form = Image.open("images others/folk dance.jpg")
 
 # --- PROJECTS ---
